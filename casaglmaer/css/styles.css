@@ -116,6 +116,11 @@ header {
   filter: contrast(1.05);
 }
 
+/* Logo sobre fondo claro (JPG con fondo blanco) */
+.logo--blend {
+  mix-blend-mode: multiply;
+}
+
 /* Etiqueta superior — GLAMOUR MODA Y ELEGANCIA */
 .tag {
   display: flex;
@@ -187,6 +192,11 @@ header {
   gap: 10px;
   width: min(100%, var(--content-width));
   margin-top: 12px;
+}
+
+/* Una sola sede a ancho completo */
+.locations--single {
+  grid-template-columns: 1fr;
 }
 
 .location {
