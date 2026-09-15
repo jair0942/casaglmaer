@@ -17,9 +17,19 @@
   />
 
   <link rel="stylesheet" href="../css/styles.css" />
+  <style>
+    /* Variante blanca — Glamel Collection */
+    body { background: #ffffff; }
+    .screen--white { background: #ffffff; }
+    .screen--white::after {
+      box-shadow:
+        inset 0 0 45px 18px rgba(0, 0, 0, 0.05),
+        inset 0 0 110px 50px rgba(0, 0, 0, 0.07);
+    }
+  </style>
 </head>
 <body>
-  <main class="screen">
+  <main class="screen screen--white">
     <header>
       <img class="logo logo--blend" src="logo.jpg" alt="Glamel Collection — logotipo" />
       <p class="tag">GLAMOUR&nbsp;&nbsp;MODA&nbsp;&nbsp;Y&nbsp;&nbsp;ELEGANCIA</p>
