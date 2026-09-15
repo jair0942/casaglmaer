@@ -116,9 +116,13 @@ header {
   filter: contrast(1.05);
 }
 
-/* Logo sobre fondo claro (JPG con fondo blanco) */
-.logo--blend {
-  mix-blend-mode: multiply;
+/* Logo — Glamel Collection (fondo blanco) */
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin: 12px auto;
 }
 
 /* Etiqueta superior — GLAMOUR MODA Y ELEGANCIA */
