@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <meta name="theme-color" content="#f5f0e6" />
+  <meta name="theme-color" content="#0d0d0d" />
   <meta name="description" content="Glamel Collection — Edificio Galaxia local 111. Contáctanos por WhatsApp o Instagram." />
   <title>Glamel Collection</title>
 
@@ -19,21 +19,21 @@
   <style>
     /* ==========================================================
        Glamel Collection — Casa2
-       Fondo blanco, esquinas curvas, contactos centrados
+       Fondo negro, esquinas curvas, contactos centrados
        ========================================================== */
     :root {
-      --ink: #1a1611;
-      --muted: #6b5e4c;
+      --ink: #f5f0e6;
+      --muted: #a89a84;
       --muted-light: #8a7d6b;
       --line: #c5a96e;
-      --line-light: rgba(197, 169, 110, 0.35);
-      --text-soft: #5a5042;
-      --card-bg: #fdfcfa;
+      --line-light: rgba(197, 169, 110, 0.3);
+      --text-soft: #c0b8a8;
+      --card-bg: #0d0d0d;
       --card-border: #c5a96e;
-      --icon-bg: #f5f2eb;
-      --btn-dark: #1a1611;
-      --btn-dark-text: #f5f0e6;
-      --btn-light: #f0ebe0;
+      --icon-bg: #1a1714;
+      --btn-dark: #c5a96e;
+      --btn-dark-text: #0d0d0d;
+      --btn-light: transparent;
       --btn-light-border: #c5a96e;
 
       --font-serif: "Cormorant Garamond", Georgia, serif;
@@ -52,7 +52,7 @@
       justify-content: center;
       align-items: center;
       background:
-        radial-gradient(ellipse at 50% 50%, #f8f6f0 0%, #f0ece4 40%, #e6e0d4 100%);
+        radial-gradient(ellipse at 50% 50%, #1a1714 0%, #0d0d0d 40%, #050505 100%);
     }
 
     /* ---- Tarjeta ---- */
@@ -90,6 +90,8 @@
       width: min(55vw, 190px);
       height: auto;
       margin-bottom: 10px;
+      filter: invert(1);
+      mix-blend-mode: screen;
     }
 
     /* ---- Tagline ---- */
@@ -137,7 +139,7 @@
 
     .sep__diamond {
       font-size: 8px;
-      color: var(--ink);
+      color: var(--line);
       line-height: 1;
     }
 
@@ -220,7 +222,7 @@
       z-index: 1;
     }
 
-    .location:hover { background: #f5f2eb; }
+    .location:hover { background: #1a1714; }
 
     .location__pin {
       display: flex;
@@ -299,7 +301,7 @@
     }
 
     .btn--light {
-      background: var(--btn-light);
+      background: transparent;
       color: var(--ink);
       border: 1.5px solid var(--btn-light-border);
     }
@@ -331,7 +333,7 @@
 
     .footer__diamond {
       font-size: 8px;
-      color: var(--ink);
+      color: var(--line);
       line-height: 1;
     }
 
